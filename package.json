@@ -4,7 +4,7 @@
   "description": "repo for learning a JS test suite",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test"
+    "test": "mocha './**/test/**/*.spec.js'"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/jamesroyston/js-testing/issues"
   },
-  "homepage": "https://github.com/jamesroyston/js-testing#readme"
+  "homepage": "https://github.com/jamesroyston/js-testing#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^3.2.0"
+  }
 }

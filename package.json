@@ -1,0 +1,19 @@
+{
+  "name": "testing-practice",
+  "version": "1.0.0",
+  "description": "repo for learning a JS test suite",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesroyston/js-testing.git"
+  },
+  "author": "James Royston",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamesroyston/js-testing/issues"
+  },
+  "homepage": "https://github.com/jamesroyston/js-testing#readme"
+}

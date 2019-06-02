@@ -61,7 +61,7 @@ describe('~~~authController', function() {
         })
     })
 
-    describe.only('getIndex', function() {
+    describe('getIndex', function() {
         var user = {}
         beforeEach(function() {
             user = {
